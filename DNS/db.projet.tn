@@ -1,0 +1,15 @@
+;
+; BIND data file for local loopback interface
+;
+$STTL    604800
+@    IN  SOA     projet.tn. root.projet.tn. (
+2       ;Serial
+604800  ;Refresh
+86400   ;Retry
+2419200 ;Expire
+604800) ;Negative Cache TTL
+;
+@    IN NS  projet.tn.
+@    IN  A  192.168.1.9
+@    IN  AAAA    ::1
+ns    IN  A   192.168.1.9   

@@ -1,0 +1,19 @@
+zone "projet.tn"
+type master;
+file "/etc/bind/db.projet.tn";
+zone "1.168.192. in-addr arpa" (
+type master;
+file "/etc/bind/db. 192";
+;
+;BIND reverse data file for local loopback interface
+;
+$STTL 604800
+@    IN  SOA     ns.projet.tn. root.projet.tn. (
+2       ;Serial
+604800  ;Refresh
+86400   ;Retry
+2419200 ;Expire
+604800) ;Negative Cache TTL
+;
+@   IN   NS  ns
+9   IN   PTR ns.projet.tn.
