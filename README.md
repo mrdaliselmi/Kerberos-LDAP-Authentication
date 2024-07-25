@@ -1,1 +1,1 @@
-# Cybersecurity Lab.
+# Cybersecurity Lab
